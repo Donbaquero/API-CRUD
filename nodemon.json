@@ -1,7 +1,7 @@
 {
     "ignore" : [
         "node_modules",
-        "git",
+        ".git",
         "**/*.test.ts",
         "**/*.spec.ts"
     ],
@@ -9,5 +9,5 @@
         "src"
     ],
     "ext" : "ts",
-    "exec2" : "npm run dev"
+    "exec" : "npm run dev"
 }
